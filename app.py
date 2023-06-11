@@ -118,4 +118,5 @@ def process_user_input(user_input):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # using docker deployment add porr and host
+    app.run(debug=True,host='0.0.0.0', port=5000)
