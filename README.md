@@ -1,4 +1,8 @@
 # NLTK
+Using docker and Docker-compose
+```
+    docker-compose up -d --build
+```
 install dependency
 ```
     pip install -r  requirements.txt
